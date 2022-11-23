@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# React Assignment for terribly-tiny-tales
+# Task Details:
+1. Create a frontend which contains a submit button on first load.
+2. On clicking the Submit Button, it will fetch the contents of https://www.terriblytinytales.com/test.txt .
+3. Then Parse the content and find the frequency of occurrence of each word .
+4. Then on the frontend, plot a histogram/Bar Chart of the 20 most occurring words.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hosted Url:  
+https://react-assignment-ttt.vercel.app/
 
-## Available Scripts
+# Screens: 
+## Screen on First Load-
+![photo_2022-11-23_15-46-19](https://user-images.githubusercontent.com/70057143/203522001-7b657857-0b82-4ef0-8ac3-89800f678c37.jpg)
+## Histogram Showing Data-
+![photo_2022-11-23_15-46-25](https://user-images.githubusercontent.com/70057143/203522044-94a946ef-2499-4c5d-8e4e-e1e53e26aa48.jpg)
 
-In the project directory, you can run:
+# Components of the Code:
+## App.js:
+It contains the submit button and functions that is responsible of fetching the data and parsing into suitable format.
+![carbon (2)](https://user-images.githubusercontent.com/70057143/203490533-006bb957-5461-439e-a486-15e315e982b1.png)
+## Histogram.js:
+It Uses React-Chartjs npm package to show the count of 20 most frequent words in the file.
+<br/>
+X-axis = top 20 words with highest occurrence
+<br/>
+Y-axis = how many times they occurred in the file
+![carbon (3)](https://user-images.githubusercontent.com/70057143/203491433-4922946e-6682-4562-ae0a-64252077e7cf.png)
 
-### `npm start`
+# Libraries and Plugins
+1. React.js 
+2. React Chart js
+3. Chart js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
