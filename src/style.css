@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitbutton {
+    text-align: center;
+    flex-grow: 1;
+    border: none;
+    background-color: rgba(255, 99, 132, 0.5);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
